@@ -1,0 +1,19 @@
+{
+  "author": "Matthew Fernando Garcia",
+  "dependencies": {
+    "express-pino-logger": "^3.0.2",
+    "graphql-yoga": "^1.15.0",
+    "mongodb": "^3.1.1",
+    "pino": "^4.17.6"
+  },
+  "devDependencies": {
+    "pino-pretty": "^1.0.1"
+  },
+  "license": "MIT",
+  "name": "yoga-log",
+  "scripts": {
+    "start": "node index",
+    "start-dev": "node index | pino-pretty -cnt"
+  },
+  "version": "1.0.0"
+}
